@@ -1,0 +1,17 @@
+# The config file supports color codes. For example gold is &6
+# More specific information about the config file here: https://modrinth.com/plugin/automatic-crafting-table
+
+enabled: true
+crafting-table-ui-display: '⚙️ 高级自动合成台'
+crafting-table-timer: 4
+crafting-table-visual-feedback-enabled: true
+crafting-table-sound-feedback-enabled: true
+separate-from-other-crafting-tables: false
+automatic-crafting-table-item-display: "⚙️ &a高级自动合成台"
+automatic-crafting-table-item-lore:
+  - "&e通过在高级自动合成台上方"
+  - "&e放置一个漏斗以激活"
+  - "&e自动合成物品"
+
+#默认最大限制
+default-maximum-limit: 3

@@ -1,0 +1,20 @@
+name: AutomaticCraftingTable
+version: $version
+main: de.philw.automaticcraftingtable.AutomaticCraftingTable
+api-version: 1.18
+authors: [ Phil ]
+description: You can use a crafting table in a hopper system to automatically craft
+  items. Use shift and left click on the crafting table to configure the settings.
+commands:
+  act:
+    description: 用于更新岛屿数值的命令
+    usage: /act <玩家> <数值>
+  getACT:
+    description: 获取自动合成台的命令
+    usage: /getACT
+permissions:
+  act.change:
+    description: 允许玩家修改岛屿数值
+    default: op
+soft-depend:
+  - PlaceholderAPI
